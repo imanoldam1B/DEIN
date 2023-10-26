@@ -6,6 +6,11 @@
         xmlns:local="clr-namespace:Controles_de_Imanol"
         mc:Ignorable="d"
         Title="Controles de Imanol" Height="450" Width="800" Background="Cyan" BorderBrush="LightYellow" BorderThickness="8">
+    <Window.Resources>
+        <Style TargetType="ProgressBar" x:Key="ProgressBarStyle">
+            <Setter Property="Height" Value="20"/>
+        </Style>
+    </Window.Resources>
     <Grid>
         <Grid Name="Título" Height="60" VerticalAlignment="Top">
             <TextBlock Text="DISEÑO DE CONTROLES" FontWeight="SemiBold" VerticalAlignment="Center" FontSize="30"/>
@@ -40,6 +45,22 @@
                     </ComboBoxItem.Content>
                 </ComboBoxItem>
             </ComboBox>
+        </Grid>
+        <Grid>
+            <ListBox Name="ListBoxAsignatura1" VerticalAlignment="Bottom" Height="170">
+                <ListBoxItem>Desarrollo de Interfaces</ListBoxItem>
+                <ProgressBar Width="200" Height="20" Value="50" Maximum="100"/>
+                <ListBoxItem Background="red">Sist. Gestion Empresarial</ListBoxItem>
+                <ProgressBar Width="200" Height="20" Value="30" Maximum="100"/>
+                <ListBoxItem>Acceso a Datos</ListBoxItem>
+                <ProgressBar Width="200" Height="20" Value="1" Maximum="100"/>
+                <ListBoxItem>Desarrollo Web</ListBoxItem>
+                <ProgressBar Width="200" Height="20" Value="25" Maximum="100"/>
+                <ListBoxItem>Ingles</ListBoxItem>
+                <ProgressBar Width="200" Height="20" Value="50" Maximum="100"/>
+                <ListBoxItem>Prog. Multimedia Moviles</ListBoxItem>
+                <ProgressBar Width="200" Height="20" Value="70" Maximum="100"/>
+            </ListBox>
         </Grid>
     </Grid>
 </Window>
