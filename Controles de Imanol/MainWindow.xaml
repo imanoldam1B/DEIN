@@ -10,15 +10,8 @@
         <Grid Height="60" VerticalAlignment="Top">
             <TextBlock Text="DISEÑO DE CONTROLES" FontWeight="SemiBold" VerticalAlignment="Center" FontSize="30"/>
         </Grid>
-        <Grid Height="280" Margin="0,47,0,56">
-            <RichTextBox Name="richTextBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10">
-                <RichTextBox.ContextMenu>
-                    <ContextMenu>
-                        <MenuItem Header="Check Spelling" Click="CheckSpelling_Click" />
-                    </ContextMenu>
-                </RichTextBox.ContextMenu>
-            </RichTextBox>
-            <Button Content="Check Spelling" Click="CheckSpelling_Click" HorizontalAlignment="Right" Margin="10" VerticalAlignment="Bottom" Width="100"/>
+        <Grid Height="100" VerticalAlignment="Top" Margin="0,47,0,56">
+            <TextBox FontSize="30" TextWrapping="Wrap" SpellCheck.IsEnabled="True">Al llegar al final de esta línea debería pasar a la siguiente linea automáticamente (se va a quejar, línea lleva tilde)</TextBox>
         </Grid>
     </Grid>
 </Window>
