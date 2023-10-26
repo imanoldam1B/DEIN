@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Controles_de_Imanol"
         mc:Ignorable="d"
-        Title="Controles de Imanol" Height="450" Width="800">
+        Title="Controles de Imanol" Height="450" Width="800" Background="Cyan" BorderBrush="LightYellow" BorderThickness="8">
     <Grid>
-        
+        <Grid Height="60" VerticalAlignment="Top">
+            <TextBlock Text="DISEÑO DE CONTROLES" FontWeight="SemiBold" VerticalAlignment="Center" FontSize="30"/>
+        </Grid>
+        <Grid Height="280" Margin="0,47,0,56">
+            <RichTextBox Name="richTextBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10">
+                <RichTextBox.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Check Spelling" Click="CheckSpelling_Click" />
+                    </ContextMenu>
+                </RichTextBox.ContextMenu>
+            </RichTextBox>
+            <Button Content="Check Spelling" Click="CheckSpelling_Click" HorizontalAlignment="Right" Margin="10" VerticalAlignment="Bottom" Width="100"/>
+        </Grid>
     </Grid>
 </Window>
