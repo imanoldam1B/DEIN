@@ -7,11 +7,39 @@
         mc:Ignorable="d"
         Title="Controles de Imanol" Height="450" Width="800" Background="Cyan" BorderBrush="LightYellow" BorderThickness="8">
     <Grid>
-        <Grid Height="60" VerticalAlignment="Top">
+        <Grid Name="Título" Height="60" VerticalAlignment="Top">
             <TextBlock Text="DISEÑO DE CONTROLES" FontWeight="SemiBold" VerticalAlignment="Center" FontSize="30"/>
         </Grid>
-        <Grid Height="100" VerticalAlignment="Top" Margin="0,47,0,56">
+        <Grid Name="textboxcorrección" Height="100" VerticalAlignment="Top" Margin="0,47,0,56">
             <TextBox FontSize="30" TextWrapping="Wrap" SpellCheck.IsEnabled="True">Al llegar al final de esta línea debería pasar a la siguiente linea automáticamente (se va a quejar, línea lleva tilde)</TextBox>
+        </Grid>
+        <Grid Name="fotosSimpson">
+            <ComboBox Name="simpson" VerticalAlignment="Top" Height="70" Margin="0,152,0,0">
+                <ComboBoxItem>
+                    <ComboBoxItem.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Width="30" Height="30" Source="Imagenes/bart.jpg" />
+                            <TextBlock Text="Bart Simpson" VerticalAlignment="Center" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </ComboBoxItem.Content>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <ComboBoxItem.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Width="30" Height="30" Source="Imagenes/maggie.jpg" />
+                            <TextBlock Text="Maggie Simpson" VerticalAlignment="Center" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </ComboBoxItem.Content>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <ComboBoxItem.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Width="30" Height="30" Source="Imagenes/homer.jpg" />
+                            <TextBlock Text="Personaje 3" VerticalAlignment="Center" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </ComboBoxItem.Content>
+                </ComboBoxItem>
+            </ComboBox>
         </Grid>
     </Grid>
 </Window>
