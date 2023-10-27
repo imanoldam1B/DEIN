@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navegación de Imanol", "Navegación de Imanol.csproj", "{72B988E0-A8F1-4F37-B292-5DA18DC3848C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B988E0-A8F1-4F37-B292-5DA18DC3848C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B988E0-A8F1-4F37-B292-5DA18DC3848C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B988E0-A8F1-4F37-B292-5DA18DC3848C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B988E0-A8F1-4F37-B292-5DA18DC3848C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B72E043-F4B1-4FA9-B340-50363517414D}
+	EndGlobalSection
+EndGlobal
