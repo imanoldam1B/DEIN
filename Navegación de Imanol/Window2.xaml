@@ -5,8 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Navegación_de_Imanol"
         mc:Ignorable="d"
-        Title="Window2" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Window2" Height="450" Width="800"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True">
+    <Border CornerRadius="12">
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/back-image.jpg" Stretch="None"/>
+        </Border.Background>
+        <Border CornerRadius="10" BorderThickness="5" Opacity="0.95">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#462AD8" Offset="0"/>
+                    <GradientStop Color="#DA34AE" Offset="0.75"/>
+                    <GradientStop Color="#8A16C1" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,2" EndPoint="1,0">
+                    <GradientStop Color="#060531" Offset="0"/>
+                    <GradientStop Color="#1B1448" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <TextBlock Text="VENTANA 2" Foreground="white" FontSize="40" FontWeight="Medium" FontFamily="Montserrat" HorizontalAlignment="Center" Margin="0,70,0,0"/>
+                <Button Name="Menu_principal" Content="Ir a Menú Principal" Width="200" Height="150" HorizontalAlignment="Left" Margin="50" VerticalAlignment="Center" Background="Green" Foreground="LightGreen" FontSize="20" FontFamily="Montserrat" Cursor="Hand" Click="MainWindow"/>
+                <Frame Name="MyFrame" Content="Frame" HorizontalAlignment="Left" Height="286" Margin="288,172,0,0" VerticalAlignment="Top" Width="472"/>
+                <Button Content="Abrir página 1" HorizontalAlignment="Left" Height="55" Margin="50,342,0,0" VerticalAlignment="Top" Width="200" FontSize="20" FontFamily="Montserrat" Background="DarkBlue" Foreground="Cyan" Click="Botón2_AbrirPágina"/>
+            </Grid>
+        </Border>
+    </Border>
 </Window>
