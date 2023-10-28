@@ -15,24 +15,13 @@ using System.Windows.Shapes;
 namespace Navegación_de_Imanol
 {
     /// <summary>
-    /// Lógica de interacción para Window2.xaml
+    /// Lógica de interacción para Page1.xaml
     /// </summary>
-    public partial class Window2 : Window
+    public partial class Page1 : Window
     {
-        public Window2()
+        public Page1()
         {
             InitializeComponent();
-        }
-        private void MainWindow(object sender, RoutedEventArgs e)
-        {
-            MainWindow abrirMainWindow = new MainWindow();
-            this.Close();
-            abrirMainWindow.Show();
-
-        }
-        private void Botón2_AbrirPágina(object sender, RoutedEventArgs e)
-        {
-            MyFrame.NavigationService.Navigate(new Page1());
         }
     }
 }

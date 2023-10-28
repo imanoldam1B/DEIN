@@ -23,5 +23,13 @@ namespace Navegación_de_Imanol
         {
             InitializeComponent();
         }
+
+        private void MainWindow(object sender, RoutedEventArgs e)
+        {
+            MainWindow abrirMainWindow = new MainWindow();
+            this.Close();
+            abrirMainWindow.Show();
+
+        }
     }
 }
