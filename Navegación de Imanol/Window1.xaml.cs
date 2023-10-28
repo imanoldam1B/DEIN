@@ -29,7 +29,6 @@ namespace Navegación_de_Imanol
             MainWindow abrirMainWindow = new MainWindow();
             this.Close();
             abrirMainWindow.Show();
-
         }
     }
 }
