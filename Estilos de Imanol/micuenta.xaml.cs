@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Estilos_de_Imanol
 {
     /// <summary>
-    /// Lógica de interacción para login.xaml
+    /// Lógica de interacción para micuenta.xaml
     /// </summary>
-    public partial class login : Window
+    public partial class micuenta : Window
     {
-        public login()
+        public micuenta()
         {
             InitializeComponent();
         }
