@@ -16,7 +16,7 @@
             </Grid.ColumnDefinitions>
 
             <!-- Título en la parte izquierda -->
-            <Button Content="CROSSFIT MANAGEMENT" VerticalAlignment="Center" FontSize="30" Margin="40 0 0 0" Foreground="LightGray" Background="DimGray" HorizontalAlignment="Left" Click=""/>
+            <Button Content="CROSSFIT MANAGEMENT" VerticalAlignment="Center" FontSize="30" Margin="40 0 0 0" Foreground="LightGray" Background="DimGray" HorizontalAlignment="Left"/>
 
             <!-- Botón "Contacto/Sugerencias" -->
             <Button Content="Contacto/&#x0a;Sugerencias" Grid.Column="1" FontSize="8" Width="60" HorizontalAlignment="Right" BorderBrush="LightGray" BorderThickness="2" Foreground="LightGray" Background="DimGray" Click="Boton_Contacto"/>

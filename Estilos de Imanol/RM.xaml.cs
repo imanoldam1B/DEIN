@@ -30,7 +30,7 @@ namespace Estilos_de_Imanol
             this.Close();
             menuPrincipal.Show();
         }
-        private void boton_Contacto(object sender, RoutedEventArgs e)
+        private void Boton_Contacto(object sender, RoutedEventArgs e)
         {
             Contacto_Sugerencias contacto = new Contacto_Sugerencias();
             this.Close();

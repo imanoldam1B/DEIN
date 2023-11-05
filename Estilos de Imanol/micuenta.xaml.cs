@@ -29,11 +29,11 @@ namespace Estilos_de_Imanol
             this.Close();
             menuPrincipal.Show();
         }
-        private void Boton_Cuenta(object sender, RoutedEventArgs e)
+        private void Boton_Contacto(object sender, RoutedEventArgs e)
         {
-            micuenta cuenta = new micuenta();
+            Contacto_Sugerencias contacto = new Contacto_Sugerencias();
             this.Close();
-            cuenta.Show();
+            contacto.Show();
         }
     }
 }
