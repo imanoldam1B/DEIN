@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <!-- Barra Superior con Fondo Gris -->
-        <Grid Background="Gray" VerticalAlignment="Top" Height="43">
+        <Grid Background="DimGray" VerticalAlignment="Top" Height="43">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="Auto"/>
@@ -19,10 +19,10 @@
             <TextBlock Text="CROSSFIT MANAGEMENT" VerticalAlignment="Center" FontSize="30" Margin="40 0 0 0" Foreground="LightGray"/>
 
             <!-- Botón "Contacto/Sugerencias" -->
-            <Button Content="Contacto/&#x0a;Sugerencias" Grid.Column="1" FontSize="8" Width="60" HorizontalAlignment="Right" Margin="10"/>
+            <Button Content="Contacto/&#x0a;Sugerencias" Grid.Column="1" FontSize="8" Width="60" HorizontalAlignment="Right" BorderBrush="LightGray" BorderThickness="2" Foreground="LightGray" Background="DimGray"/>
 
             <!-- Botón "Contacto" -->
-            <Button Content="Contacto" Grid.Column="2" HorizontalAlignment="Right" Margin="10"/>
+            <Button Content="Mi cuenta" Grid.Column="2" HorizontalAlignment="Right" BorderBrush="LightGray" BorderThickness="2" Foreground="LightGray" Background="DimGray"/>
         </Grid>
 
         <!-- Contenido de la aplicación debajo de la barra superior -->
