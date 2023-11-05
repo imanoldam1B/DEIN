@@ -15,10 +15,10 @@
             </Grid.ColumnDefinitions>
 
             <!-- Título en la parte izquierda -->
-            <TextBlock Text="CROSSFIT MANAGEMENT" VerticalAlignment="Center" FontSize="30" Margin="40 0 0 0" Foreground="LightGray"/>
+            <Button Content="CROSSFIT MANAGEMENT" VerticalAlignment="Center" FontSize="30" Margin="40 0 0 0" Foreground="LightGray" Background="DimGray" HorizontalAlignment="Left" Click="Boton_MenuPrincipal"/>
 
             <!-- Botón "Contacto/Sugerencias" -->
-            <Button Content="Mi cuenta" FontSize="8" Width="60" Height="40" Background="DimGray" Foreground="LightGray" BorderBrush="LightGray" BorderThickness="2" HorizontalAlignment="Right" Margin="0,0,-0.4,3" Grid.ColumnSpan="3"/>
+            <Button Content="Mi cuenta" FontSize="8" Width="60" Height="40" Background="DimGray" Foreground="LightGray" BorderBrush="LightGray" BorderThickness="2" HorizontalAlignment="Right" Margin="0,0,-0.4,3" Grid.ColumnSpan="3" Click="Boton_Cuenta"/>
         </Grid>
         <Grid Margin="0 40 0 0" Background="DarkGray">
             <Grid.ColumnDefinitions>

@@ -24,5 +24,24 @@ namespace Estilos_de_Imanol
         {
             InitializeComponent();
         }
+        private void boton_Contacto(object sender, RoutedEventArgs e)
+        {
+            Contacto_Sugerencias contacto = new Contacto_Sugerencias();
+            this.Close();
+            contacto.Show();
+        }
+        private void Boton_Cuenta(object sender, RoutedEventArgs e)
+        {
+            micuenta cuenta = new micuenta();
+            this.Close();
+            cuenta.Show();
+        }
+        private void Boton_RM(object sender, RoutedEventArgs e)
+        {
+            RM rm = new RM();
+            this.Close();
+            rm.Show();
+        }
+
     }
 }

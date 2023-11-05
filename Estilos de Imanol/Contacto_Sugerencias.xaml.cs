@@ -23,5 +23,17 @@ namespace Estilos_de_Imanol
         {
             InitializeComponent();
         }
+        private void Boton_MenuPrincipal(object sender, RoutedEventArgs e)
+        {
+            MainWindow menuPrincipal = new MainWindow();
+            this.Close();
+            menuPrincipal.Show();
+        }
+        private void Boton_Cuenta(object sender, RoutedEventArgs e)
+        {
+            micuenta cuenta = new micuenta();
+            this.Close();
+            cuenta.Show();
+        }
     }
 }
