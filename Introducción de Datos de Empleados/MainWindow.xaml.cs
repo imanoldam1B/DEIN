@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Win32;
 
 namespace Introducción_de_Datos_de_Empleados
 {
@@ -23,6 +24,19 @@ namespace Introducción_de_Datos_de_Empleados
         public MainWindow()
         {
             InitializeComponent();
+        }
+        private void OpenImage(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Archivos de imagen (*.jpg;*.jpeg;*.png;*.gif)|*.jpg;*.jpeg;*.png;*.gif";
+
+            if (openFileDialog.ShowDialog() == true)
+            {
+                string filePath = openFileDialog.FileName;
+
+                BitmapImage bitmapImage = new BitmapImage(new Uri(filePath));
+                imageControl.Source = bitmapImage; 
+            }
         }
     }
 }
