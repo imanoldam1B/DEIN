@@ -27,6 +27,15 @@ namespace Introducción_de_Datos_de_Empleados
             InitializeComponent();
             dataGrid.ItemsSource = DatosTemporales;
         }
+
+        private void comprobarDatos(object sender, RoutedEventArgs e)
+        {
+            if (txtNombre.Text == "" || txtApellidos.Text == "" || txtEmail.Text == "" || txtTelefono.Text == "")
+            {
+                MessageBox.Show("Faltan campos obligatorios por rellenar");
+            }
+        }
+
         private void OpenImage(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -87,6 +96,11 @@ namespace Introducción_de_Datos_de_Empleados
             txtApellidos.Clear();
             txtEmail.Clear();
             txtTelefono.Clear();
+        }
+
+        private void Guardar_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
