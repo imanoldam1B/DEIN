@@ -63,8 +63,15 @@
         <TextBox BorderBrush="Gray" Width="680" Height="80" HorizontalAlignment="Left" Margin="20,200,0,0"/>
         <StackPanel Orientation="Horizontal" Height="50"  Margin="0,360,0,0" HorizontalAlignment="Center">
             <Button x:Name="Guardar" Content="Guardar" Width="120" Margin="5 0" FontSize="15" Click="Guardar_Click" />
-            <Button x:Name="Cancelar" Content="Cancelar" Width="120" Margin="5 0" FontSize="15" />
+            <Button x:Name="Cancelar" Content="Cancelar" Width="120" Margin="5 0" FontSize="15" Click="Cancelar_Click" />
         </StackPanel>
-        <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" HorizontalAlignment="Left" VerticalAlignment="Center" Width="740" Height="45" Margin="20 500 20 0" />
+        <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" HorizontalAlignment="Left" VerticalAlignment="Center" Width="740" Height="45" Margin="20 500 20 0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" />
+                <DataGridTextColumn Header="Apellidos" Binding="{Binding Apellidos}" />
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}" />
+                <DataGridTextColumn Header="Telefono" Binding="{Binding Telefono}" />
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

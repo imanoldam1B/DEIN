@@ -21,19 +21,9 @@ namespace Introducción_de_Datos_de_Empleados
     /// </summary>
     public partial class MainWindow : Window
     {
-        public List<object> DatosTemporales { get; set; } = new List<object>();
         public MainWindow()
         {
             InitializeComponent();
-            dataGrid.ItemsSource = DatosTemporales;
-        }
-
-        private void comprobarDatos(object sender, RoutedEventArgs e)
-        {
-            if (txtNombre.Text == "" || txtApellidos.Text == "" || txtEmail.Text == "" || txtTelefono.Text == "")
-            {
-                MessageBox.Show("Faltan campos obligatorios por rellenar");
-            }
         }
 
         private void OpenImage(object sender, RoutedEventArgs e)
@@ -82,25 +72,46 @@ namespace Introducción_de_Datos_de_Empleados
         }
         private void Guardar_Click(object sender, RoutedEventArgs e)
         {
-            DatosTemporales.Add(new
+            string nombre = txtNombre.Text;
+            string apellidos = txtApellidos.Text;
+            string email = txtEmail.Text;
+            string telefono = txtTelefono.Text;
+
+            if (datosObligatoriosLlenos()){
+
+                var persona = new { Nombre = nombre, Apellidos = apellidos, Email = email, Telefono = telefono };
+
+                dataGrid.Items.Add(persona);
+
+                dataGrid.Items.Refresh();
+
+                txtNombre.Clear();
+                txtApellidos.Clear();
+                txtEmail.Clear();
+                txtTelefono.Clear();
+            }
+            else
             {
-                Nombre = txtNombre.Text,
-                Apellidos = txtApellidos.Text,
-                Email = txtEmail.Text,
-                Telefono = txtTelefono.Text
-            });
-
-            dataGrid.Items.Refresh();
-
-            txtNombre.Clear();
-            txtApellidos.Clear();
-            txtEmail.Clear();
-            txtTelefono.Clear();
+                MessageBox.Show("Faltan campos obligatorios por rellenar");
+            }
+            
         }
 
-        private void Guardar_Click_1(object sender, RoutedEventArgs e)
+        private bool datosObligatoriosLlenos()
         {
+            if (!(string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtApellidos.Text) || string.IsNullOrEmpty(txtEmail.Text) || string.IsNullOrEmpty(txtTelefono.Text)))
+            {
+                return true;
+            }
+            return false;
+        }
 
+        private void Cancelar_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+
+            MainWindow ventanaNueva = new MainWindow();
+            ventanaNueva.Show();
         }
     }
 }
