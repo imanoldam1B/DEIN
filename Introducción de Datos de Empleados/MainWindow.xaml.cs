@@ -108,10 +108,9 @@ namespace Introducción_de_Datos_de_Empleados
 
         private void Cancelar_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
-
             MainWindow ventanaNueva = new MainWindow();
             ventanaNueva.Show();
+            this.Close();
         }
     }
 }
