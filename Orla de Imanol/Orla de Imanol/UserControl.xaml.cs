@@ -18,12 +18,13 @@ namespace Orla_de_Imanol
     /// <summary>
     /// Lógica de interacción para UserControl.xaml
     /// </summary>
-    public partial class UserControl : UserControl
+    public partial class Puesto : UserControl
     {
+        
         public static DependencyProperty NombreProperty = DependencyProperty.Register("Nombre", typeof(string), typeof(Puesto), new PropertyMetadata(string.Empty));
         public static DependencyProperty ApellidosProperty = DependencyProperty.Register("Apellidos", typeof(string), typeof(Puesto), new PropertyMetadata(string.Empty));
         public static DependencyProperty EmailProperty = DependencyProperty.Register("Email", typeof(string), typeof(Puesto), new PropertyMetadata(string.Empty));
-        public static DependencyProperty FotoPropoerty = DependencyProperty.Register("Apellidos", typeof(Image), typeof(Puesto), new PropertyMetadata(string.Empty));
+        public static DependencyProperty FotoPathProperty = DependencyProperty.Register("Foto", typeof(string), typeof(Puesto), new PropertyMetadata(string.Empty));
         public string Nombre
         {
             get { return (string)GetValue(NombreProperty); }
@@ -34,9 +35,20 @@ namespace Orla_de_Imanol
             get { return (string)GetValue(ApellidosProperty); }
             set { SetValue(ApellidosProperty, value); }
         }
-        public UserControl()
+        public string Email
+        {
+            get { return (string)GetValue(EmailProperty); }
+            set { SetValue(EmailProperty, value); }
+        }
+        public string Foto
+        {
+            get { return (string)GetValue(FotoPathProperty); }
+            set { SetValue(FotoPathProperty, value); }
+        }
+        public Puesto()
         {
             InitializeComponent();
+            this.DataContext = this;
         }
         private void Persona_MouseEnter(object sender, MouseEventArgs e)
         {
