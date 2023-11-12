@@ -24,5 +24,26 @@ namespace Orla_de_Imanol
         {
             InitializeComponent();
         }
+        private void MouseEnter41(object sender, MouseEventArgs e)
+        {
+            LabelPuesto41.Text = "Aritz Delegado";
+        }
+
+        private void MouseLeave41(object sender,
+
+        MouseEventArgs e)
+        {
+            LabelPuesto41.Text = "";
+        }
+        private void MouseClick41(object sender, RoutedEventArgs e)
+        {
+            LabelPuesto41.Text = "delegado_estrella@educacion.navarra.es";
+        }
+        private void Persona41_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Profile win2 = new Profile("Nombre", "Apellidos", "email_alumno@educacion.navarra.es", "Imagenes/AritzP.jpg");
+
+            win2.Show();
+        }
     }
 }
