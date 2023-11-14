@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Orla_de_Imanol.UserControl"
+﻿<UserControl x:Class="Orla_de_Imanol.Puesto"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -23,7 +23,10 @@
             <Button.OpacityMask>
                 <ImageBrush ImageSource="Imagenes/usuario.png" Stretch="Uniform"/>
             </Button.OpacityMask>
+            <Button.Background>
+                <ImageBrush ImageSource="{Binding Foto, ElementName=root}" Stretch="Uniform"/>
+            </Button.Background>
         </Button>
-        <Image Grid.Row="2" Grid.Column="0" Source="/Imagenes/PC.png" Margin="15"/>
+        <Image Grid.Row="2" Grid.Column="0" Source="Imagenes/PC.png" Margin="15"/>
     </Grid>
 </UserControl>

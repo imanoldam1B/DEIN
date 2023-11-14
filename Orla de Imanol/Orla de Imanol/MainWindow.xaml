@@ -42,7 +42,7 @@
             </Button>
         </StackPanel>
         <Image Grid.Row="2" Grid.Column="1" Source="/Imagenes/PC.png" Margin="15 0"/>
-        
+        <local:Puesto Nombre="Randy" Grid.Row="1" Grid.RowSpan="2" Grid.Column="2" Apellidos="Achana" Email="randy@educacion.navarra.es" Foto="/Imagenes/PC.png"></local:Puesto>
 
     </Grid>
 </Window>

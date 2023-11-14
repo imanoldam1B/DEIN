@@ -16,15 +16,19 @@ using System.Windows.Shapes;
 namespace Orla_de_Imanol
 {
     /// <summary>
-    /// Lógica de interacción para UserControl.xaml
+    /// Lógica de interacción para Puesto.xaml
     /// </summary>
     public partial class Puesto : UserControl
     {
-        
         public static DependencyProperty NombreProperty = DependencyProperty.Register("Nombre", typeof(string), typeof(Puesto), new PropertyMetadata(string.Empty));
         public static DependencyProperty ApellidosProperty = DependencyProperty.Register("Apellidos", typeof(string), typeof(Puesto), new PropertyMetadata(string.Empty));
         public static DependencyProperty EmailProperty = DependencyProperty.Register("Email", typeof(string), typeof(Puesto), new PropertyMetadata(string.Empty));
-        public static DependencyProperty FotoPathProperty = DependencyProperty.Register("Foto", typeof(string), typeof(Puesto), new PropertyMetadata(string.Empty));
+        public static DependencyProperty FotoProperty = DependencyProperty.Register("Foto", typeof(string), typeof(Puesto), new PropertyMetadata(string.Empty));
+
+        public Puesto()
+        {
+            InitializeComponent();
+        }
         public string Nombre
         {
             get { return (string)GetValue(NombreProperty); }
@@ -42,14 +46,10 @@ namespace Orla_de_Imanol
         }
         public string Foto
         {
-            get { return (string)GetValue(FotoPathProperty); }
-            set { SetValue(FotoPathProperty, value); }
+            get { return (string)GetValue(FotoProperty); }
+            set { SetValue(FotoProperty, value); }
         }
-        public Puesto()
-        {
-            InitializeComponent();
-            this.DataContext = this;
-        }
+
         private void Persona_MouseEnter(object sender, MouseEventArgs e)
         {
             LabelPuesto.Text = Nombre + " " + Apellidos;
