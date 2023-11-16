@@ -1,0 +1,1 @@
+﻿SELECT * FROM Articulos WHERE precio < 15;
