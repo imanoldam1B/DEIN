@@ -4,6 +4,9 @@
              xmlns:local="clr-namespace:Estilos_de_Imanol"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+		<Style x:key="aparienciaBotonesMenuPrincipal" TargetType="Button">
+			<Setter Property="Background" Value="white"/>
+			<Setter Property="" Value=""/>
+		</Style>
     </Application.Resources>
 </Application>
