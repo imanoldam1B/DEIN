@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Estilos_de_Imanol
+namespace Crossfit_Management
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml

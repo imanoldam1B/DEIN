@@ -1,0 +1,75 @@
+﻿<Window x:Class="Estilos_de_Imanol.Videos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estilos_de_Imanol"
+        mc:Ignorable="d"
+        Title="Videos" Height="450" Width="800">
+    <Grid Background="gray">
+        <Grid Background="DimGray" VerticalAlignment="Top" Height="43">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Título en la parte izquierda -->
+            <Button Style="{DynamicResource botonTituloCabecera}" Click="Boton_MenuPrincipal"/>
+
+            <!-- Botón "Contacto/Sugerencias" -->
+            <Button Style="{DynamicResource botonContacto}" Content="Contacto/&#x0a;Sugerencias" Click="Boton_Contacto"/>
+
+            <!-- Botón "Contacto" -->
+            <Button Style="{DynamicResource botonMiCuenta}" Content="Mi cuenta" Click="Boton_Cuenta"/>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.ColumnSpan="7" Grid.Column="4" Grid.Row="1" FontSize="25" Foreground="white" HorizontalAlignment="Center" Margin="0.4,25.6,40.2,4.2" Grid.RowSpan="2" >VIDEOS DESTACADOS ESTE MES</TextBlock>
+            <TextBox Style="{DynamicResource video}" Grid.Column="3" Grid.Row="3"/>
+            <TextBox Style="{DynamicResource video}" Grid.Column="6" Grid.Row="3" />
+            <TextBox Style="{DynamicResource video}" Grid.Column="9" Grid.Row="3" />
+            <TextBox Style="{DynamicResource video}" Grid.Column="3" Grid.Row="6" />
+            <TextBox Style="{DynamicResource video}" Grid.Column="6" Grid.Row="6" />
+            <TextBox Style="{DynamicResource video}" Grid.Column="9" Grid.Row="6" />
+            <TextBox Style="{DynamicResource video}" Grid.Column="3" Grid.Row="11" />
+            <TextBlock Foreground="WHITE" Grid.ColumnSpan="5" Grid.Row="9" Grid.Column="3" VerticalAlignment="Center" FontSize="11">ULTIMO GANADOR DEL MEJOR VIDEO MENSUAL:</TextBlock>
+            <TextBlock Foreground="white" Grid.ColumnSpan="2" Grid.Row="10" Grid.Column="3" VerticalAlignment="Center" FontSize="11">- DANIMAL, 32 AÑOS</TextBlock>
+            <TextBlock FontSize="15" Grid.ColumnSpan="7" Grid.Row="10" Grid.Column="7" VerticalAlignment="Center" Foreground="white">Si tu también quieres subir alguno de tus videos y</TextBlock>
+            <TextBlock FontSize="15" Grid.ColumnSpan="7" Grid.Row="11" Grid.Column="7" VerticalAlignment="Center" Foreground="white">aparecer en los videos destacados mensuales, sube</TextBlock>
+            <TextBlock FontSize="15" Grid.ColumnSpan="7" Grid.Row="12" Grid.Column="7" VerticalAlignment="Center" Foreground="white">tu archivo</TextBlock>
+            <Button FontSize="15" Content="aquí" Foreground="white" Grid.Row="12" Grid.Column="8" Background="Transparent" Grid.ColumnSpan="2" Margin="21,0,36.6,30" Grid.RowSpan="2" Click="quieroSubirVideo"/>
+        </Grid>
+    </Grid>
+</Window>

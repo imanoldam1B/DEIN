@@ -1,9 +1,9 @@
-﻿<Window x:Class="Estilos_de_Imanol.micuenta"
+﻿<Window x:Class="Crossfit_Management.micuenta"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Estilos_de_Imanol"
+        xmlns:local="clr-namespace:Crossfit_Management"
         mc:Ignorable="d"
         Title="micuenta" Height="450" Width="800">
     <Grid>
@@ -16,7 +16,7 @@
 
             <!-- Título en la parte izquierda -->
             <Button Style="{DynamicResource botonTituloCabecera}" Click="Boton_MenuPrincipal"/>
-            
+
             <!-- Botón "Contacto/Sugerencias" -->
             <Button Style="{DynamicResource botonContacto}" Content="Contacto/&#x0a;Sugerencias" Click="Boton_Contacto"/>
         </Grid>

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Estilos_de_Imanol
+namespace Crossfit_Management
 {
     /// <summary>
     /// Lógica de interacción para App.xaml

@@ -1,11 +1,11 @@
-﻿<Window x:Class="Estilos_de_Imanol.micuenta"
+﻿<Window x:Class="Crossfit_Management.SubirVideo"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Estilos_de_Imanol"
+        xmlns:local="clr-namespace:Crossfit_Management"
         mc:Ignorable="d"
-        Title="micuenta" Height="450" Width="800">
+        Title="SubirVideo" Height="450" Width="800">
     <Grid>
         <Grid Background="DimGray" VerticalAlignment="Top" Height="43">
             <Grid.ColumnDefinitions>
@@ -16,11 +16,14 @@
 
             <!-- Título en la parte izquierda -->
             <Button Style="{DynamicResource botonTituloCabecera}" Click="Boton_MenuPrincipal"/>
-            
+
             <!-- Botón "Contacto/Sugerencias" -->
             <Button Style="{DynamicResource botonContacto}" Content="Contacto/&#x0a;Sugerencias" Click="Boton_Contacto"/>
+
+            <!-- Botón "Contacto" -->
+            <Button Style="{DynamicResource botonMiCuenta}" Content="Mi cuenta" Click="Boton_Cuenta"/>
         </Grid>
-        <Grid Margin="0 40 0 0" Background="DarkGray">
+        <Grid Margin="0,43,-0.4,0" Background="DarkGray">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
@@ -40,15 +43,17 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <TextBlock Text="MI CUENTA" Grid.Column="2" Grid.Row="1" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
-            <TextBlock Text="Nombre y apellidos: Imanol Perez Aristu&#x0a;Correo: minisotico@gmail.com&#x0a;Usuario: Imanol2345&#x0a;Contraseña: *********" Grid.ColumnSpan="2" Grid.RowSpan="3" Grid.Column="1" Grid.Row="2" FontSize="15" VerticalAlignment="Center" Foreground="White"/>
-            <Image Source="/images/fokitas.webp" Grid.ColumnSpan="1" Grid.RowSpan="4" Grid.Column="3" Grid.Row="2"/>
-            <TextBlock Text="Cambiar idioma:" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Right" FontSize="15" VerticalAlignment="Center" Foreground="White"/>
-            <Button Content="Español ^" Background="White" Grid.Column="2" Grid.Row="5" Width="90" Height="25" HorizontalAlignment="Left" Margin="15 0 0 0"/>
-            <Button Background="White" Grid.Column="1" Grid.Row="7" Width="20" Height="20" HorizontalAlignment="Left"/>
-            <TextBlock Text="Quiero recibir notificaciones promocionales al correo electrónico y estar&#x0a;a alerta de nuevos eventos o celebraciones del BOX" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="3" FontSize="13" VerticalAlignment="Center" Margin="30 0 0 0" Foreground="White"/>
-            <Button Grid.Column="2" Grid.Row="9" Background="DimGray" Content="Cerrar sesión" FontWeight="Bold" FontSize="20" Foreground="White"/>
+            <TextBlock Foreground="White" FontSize="22" Grid.ColumnSpan="4" Margin="159,0,0.4,10.2" Grid.RowSpan="2" Grid.Row="1" HorizontalAlignment="Center">Para publicar un video y que sea visible</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" Grid.ColumnSpan="4" Margin="159,0,0.4,10.2" Grid.RowSpan="2" Grid.Row="2" HorizontalAlignment="Center">para los demás usuarios, arrástralo aquí</TextBlock>
+            <TextBox Text="Arrastrar video" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="3" Grid.RowSpan="6" Grid.Column="1" Grid.Row="4" />
+            <TextBox Text="Añade un comentario (opcional)" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Column="1" Grid.Row="11" />
+            <Button BorderBrush="Red" BorderThickness="1" Content="Publicar" Grid.Row="14" Grid.Column="3" Click="publicar"></Button>
         </Grid>
     </Grid>
 </Window>
