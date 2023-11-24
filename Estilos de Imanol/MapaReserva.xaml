@@ -13,7 +13,6 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-
             <!-- Título en la parte izquierda -->
             <Button Style="{DynamicResource botonTituloCabecera}"/>
 
