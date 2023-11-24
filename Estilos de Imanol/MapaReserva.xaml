@@ -14,13 +14,13 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <!-- Título en la parte izquierda -->
-            <Button Style="{DynamicResource botonTituloCabecera}"/>
+            <Button Style="{DynamicResource botonTituloCabecera}" Click="Boton_MenuPrincipal" />
 
             <!-- Botón "Contacto/Sugerencias" -->
-            <Button Style="{DynamicResource botonContacto}" Content="Contacto/&#x0a;Sugerencias" Click="Boton_Contacto"/>
+            <Button Style="{DynamicResource botonContacto}" Click="Boton_Contacto"/>
 
             <!-- Botón "Contacto" -->
-            <Button Style="{DynamicResource botonMiCuenta}" Content="Mi cuenta" Click="Boton_Cuenta"/>
+            <Button Style="{DynamicResource botonMiCuenta}" Click="Boton_Cuenta"/>
         </Grid>
         <Grid Margin="0,43,-0.4,0" Background="DarkGray">
             <Grid.ColumnDefinitions>

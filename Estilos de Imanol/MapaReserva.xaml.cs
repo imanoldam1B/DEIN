@@ -23,6 +23,13 @@ namespace Estilos_de_Imanol
         {
             InitializeComponent();
         }
+
+        private void Boton_MenuPrincipal(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            this.Close();
+            main.Show();
+        }
         private void Boton_Contacto(object sender, RoutedEventArgs e)
         {
             Contacto_Sugerencias contacto = new Contacto_Sugerencias();

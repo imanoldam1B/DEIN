@@ -18,10 +18,10 @@
             <Button Style="{DynamicResource botonTituloCabecera}" Click="Boton_MenuPrincipal"/>
 
             <!-- Botón "Contacto/Sugerencias" -->
-            <Button Style="{DynamicResource botonContacto}" Content="Contacto/&#x0a;Sugerencias" Click="Boton_Contacto"/>
+            <Button Style="{DynamicResource botonContacto}" Click="Boton_Contacto"/>
 
             <!-- Botón "Contacto" -->
-            <Button Style="{DynamicResource botonMiCuenta}" Content="Mi cuenta" Click="Boton_Cuenta"/>
+            <Button Style="{DynamicResource botonMiCuenta}" Click="Boton_Cuenta"/>
         </Grid>
         <Grid>
             <Grid.RowDefinitions>

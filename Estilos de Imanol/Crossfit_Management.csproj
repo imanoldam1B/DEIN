@@ -143,7 +143,6 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="images\fokitas.webp" />
-    <None Include="images\menu-principal2.webp" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -163,6 +162,9 @@
     <Resource Include="images\anillas.png" />
     <Resource Include="images\comba.png" />
     <Resource Include="images\llanta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\menu-principal2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
