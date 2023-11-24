@@ -33,6 +33,16 @@
             <Setter Property="BorderThickness" Value="2" />
             <Setter Property="Background" Value="DimGray" />
         </Style>
+        <Style x:Key="botonesCuerpoMainWindow" TargetType="Button">
+            <Setter Property="Grid.ColumnSpan" Value="3" />
+            <Setter Property="Grid.Column" Value="5" />
+            <Setter Property="Background" Value="White" />
+            <Setter Property="BorderBrush" Value="DimGray" />
+            <Setter Property="BorderThickness" Value="4" />
+            <Setter Property="BorderBrush" Value="LightGray" />
+            <Setter Property="BorderThickness" Value="2" />
+            <Setter Property="Background" Value="DimGray" />
+        </Style>
         <Style x:Key="video" TargetType="TextBox">
             <Setter Property="Grid.ColumnSpan" Value="2" />
             <Setter Property="Grid.RowSpan" Value="2" />
@@ -41,6 +51,12 @@
             <Setter Property="VerticalContentAlignment" Value="Center" />
             <Setter Property="Background" Value="LightGray" />
             <Setter Property="Foreground" Value="white" />
+        </Style>
+        <Style x:Key="SitioReservado" TargetType="Button">
+            <Setter Property="Background" Value="red"/>
+        </Style>
+        <Style x:Key="SitioLibre" TargetType="Button">
+            <Setter Property="Background" Value="Green"/>
         </Style>
     </Application.Resources>
 </Application>

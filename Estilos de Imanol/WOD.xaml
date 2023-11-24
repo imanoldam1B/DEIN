@@ -1,0 +1,80 @@
+﻿<Window x:Class="Estilos_de_Imanol.WOD"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estilos_de_Imanol"
+        mc:Ignorable="d"
+        Title="WOD" Height="450" Width="800">
+    <Grid>
+        <Grid Background="DimGray" VerticalAlignment="Top" Height="43">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Título en la parte izquierda -->
+            <Button Style="{DynamicResource botonTituloCabecera}" Click="boton_menu_principal"/>
+
+            <!-- Botón "Contacto/Sugerencias" -->
+            <Button Style="{DynamicResource botonContacto}" Content="Contacto/&#x0a;Sugerencias" Click="Boton_Contacto"/>
+
+            <!-- Botón "Contacto" -->
+            <Button Style="{DynamicResource botonMiCuenta}" Content="Mi cuenta" Click="Boton_Cuenta"/>
+        </Grid>
+        <Grid Margin="0,43,-0.4,0" Background="DarkGray">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="1">Calentamiento:</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="3" Grid.Column="2" Grid.Row="2">- Tabata barra / comba</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="3">Fuerza (6 x 2'):</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="3" Grid.Column="2" Grid.Row="4">- Deadlift 5-5-5 3-3-3</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="5">WOD (Chipper):</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="3" Grid.Column="2" Grid.Row="6">- 50 push ups</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="3" Grid.Column="2" Grid.Row="7">- 40 sit ups</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="3" Grid.Column="2" Grid.Row="8">- 30 ring row</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="3" Grid.Column="2" Grid.Row="9">- 20 ring dips</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="3" Grid.Column="2" Grid.Row="10">- 10 squat clean and jerk</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="3" Grid.Column="2" Grid.Row="11">- 5 m.up / 10 c2b</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="3" Grid.Column="2" Grid.Row="12">- 2 tire flip</TextBlock>
+            <TextBox Background="DimGray" BorderBrush="Yellow" BorderThickness="2" Text="Pesos:" Foreground="white" Grid.ColumnSpan="2" FontSize="18" HorizontalContentAlignment="Center" Grid.Row="1" Grid.Column="7" />
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="2" Grid.Column="7" Grid.Row="2">- RX -> 80 / 50</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="2" Grid.Column="7" Grid.Row="3">- OP -> 60 / 35</TextBlock>
+            <TextBlock FontSize="20" Foreground="white" Grid.ColumnSpan="2" Grid.Column="7" Grid.Row="4">- SC -> 40 / 25</TextBlock>
+            <TextBox Background="DimGray" BorderBrush="Yellow" BorderThickness="2" Text="Material utilizado:" Foreground="white" Grid.ColumnSpan="2" FontSize="17" HorizontalContentAlignment="Center" Grid.Row="7" Grid.Column="7" />
+            <Image Source="Images/barra.png" Grid.RowSpan="4" Grid.ColumnSpan="3" Height="70" Grid.Row="7" Grid.Column="6" Margin="35.4,10,36.6,12.4" />
+            <Image Source="Images/comba.png" Grid.RowSpan="3" Grid.ColumnSpan="3" Height="70" Grid.Row="8" Grid.Column="8" Margin="9.4,5,62.6,0.2" />
+            <Image Source="Images/anillas.png" Grid.RowSpan="4" Grid.ColumnSpan="4" Height="70" Grid.Row="10" Grid.Column="6" Margin="0.4,20,71.6,10" />
+            <Image Source="Images/llanta.png" Grid.RowSpan="4" Grid.ColumnSpan="4" Height="70" Grid.Row="10" Grid.Column="7" Margin="0.4,20,71.6,10" />
+        </Grid>
+    </Grid>
+</Window>

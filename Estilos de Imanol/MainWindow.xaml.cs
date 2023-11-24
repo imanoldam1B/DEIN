@@ -42,6 +42,18 @@ namespace Estilos_de_Imanol
             this.Close();
             rm.Show();
         }
+        private void Boton_WOD(object sender, RoutedEventArgs e)
+        {
+            WOD wod = new WOD();
+            this.Close();
+            wod.Show();
+        }
+        private void Boton_Reservar(object sender, RoutedEventArgs e)
+        {
+            MapaReserva mapa = new MapaReserva();
+            this.Close();
+            mapa.Show();
+        }
         private void Boton_Publicar(object sender, RoutedEventArgs e)
         {
             Videos videos = new Videos();
