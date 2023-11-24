@@ -15,10 +15,8 @@
             </Grid.ColumnDefinitions>
             <!-- Título en la parte izquierda -->
             <Button Style="{DynamicResource botonTituloCabecera}" Click="Boton_MenuPrincipal" />
-
             <!-- Botón "Contacto/Sugerencias" -->
             <Button Style="{DynamicResource botonContacto}" Click="Boton_Contacto"/>
-
             <!-- Botón "Contacto" -->
             <Button Style="{DynamicResource botonMiCuenta}" Click="Boton_Cuenta"/>
         </Grid>

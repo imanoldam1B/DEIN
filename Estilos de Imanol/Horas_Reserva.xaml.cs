@@ -10,19 +10,24 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Estilos_de_Imanol
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para Horas_Reserva.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Horas_Reserva : Window
     {
-        public MainWindow()
+        public Horas_Reserva()
         {
             InitializeComponent();
+        }
+        private void Boton_MenuPrincipal(object sender, RoutedEventArgs e)
+        {
+            MainWindow menuPrincipal = new MainWindow();
+            this.Close();
+            menuPrincipal.Show();
         }
         private void Boton_Contacto(object sender, RoutedEventArgs e)
         {
@@ -36,29 +41,11 @@ namespace Estilos_de_Imanol
             this.Close();
             cuenta.Show();
         }
-        private void Boton_RM(object sender, RoutedEventArgs e)
+        private void Boton_EscogerHora(object sender, RoutedEventArgs e)
         {
-            RM rm = new RM();
+            MapaReserva mp = new MapaReserva();
             this.Close();
-            rm.Show();
-        }
-        private void Boton_WOD(object sender, RoutedEventArgs e)
-        {
-            WOD wod = new WOD();
-            this.Close();
-            wod.Show();
-        }
-        private void Boton_Reservar(object sender, RoutedEventArgs e)
-        {
-            Horas_Reserva horas = new Horas_Reserva();
-            this.Close();
-            horas.Show();
-        }
-        private void Boton_Publicar(object sender, RoutedEventArgs e)
-        {
-            Videos videos = new Videos();
-            this.Close();
-            videos.Show();
+            mp.Show();
         }
     }
 }

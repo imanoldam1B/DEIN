@@ -1,0 +1,120 @@
+﻿<Window x:Class="Estilos_de_Imanol.Horas_Reserva"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estilos_de_Imanol"
+        mc:Ignorable="d"
+        Title="Horas_Reserva" Height="450" Width="800">
+    <Grid>
+        <Grid Background="DimGray" VerticalAlignment="Top" Height="43">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <!-- Título en la parte izquierda -->
+            <Button Style="{DynamicResource botonTituloCabecera}" Click="Boton_MenuPrincipal" />
+            <!-- Botón "Contacto/Sugerencias" -->
+            <Button Style="{DynamicResource botonContacto}" Click="Boton_Contacto"/>
+            <!-- Botón "Contacto" -->
+            <Button Style="{DynamicResource botonMiCuenta}" Click="Boton_Cuenta"/>
+        </Grid>
+        <Grid Background="DarkGray" Margin="0,43,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.ColumnSpan="6" FontSize="15" Grid.Column="6" Margin="0,0,39,0" Foreground="white">Escoge la hora de tu entrenamiento.</TextBlock>
+            <TextBlock Grid.ColumnSpan="14" FontSize="15" Grid.Row="1" Grid.Column="2" Foreground="white" Margin="0,0,39,0">Al entrenamiento de Crossfit le corresponde 1h y al entrenamiento de Open 1h 30min</TextBlock>
+            <TextBox Style="{DynamicResource CuadroDiaSemana}" Text="LUNES" Grid.Row="2" Grid.Column="1" />
+            <TextBox Style="{DynamicResource CuadroDiaSemana}" Text="MARTES" Grid.Row="2" Grid.Column="4" />
+            <TextBox Style="{DynamicResource CuadroDiaSemana}" Text="MIERCOLES" Grid.Row="2" Grid.Column="7" />
+            <TextBox Style="{DynamicResource CuadroDiaSemana}" Text="JUEVES" Grid.Row="2" Grid.Column="10" />
+            <TextBox Style="{DynamicResource CuadroDiaSemana}" Text="VIERNES" Grid.Row="2" Grid.Column="13" />
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="3" Grid.Column="1" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="3" Grid.Column="4" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="3" Grid.Column="7" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="3" Grid.Column="10" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="3" Grid.Column="13" Click="Boton_EscogerHora"/>
+
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="4" Grid.Column="1" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="4" Grid.Column="4" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="4" Grid.Column="7" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="4" Grid.Column="10" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="4" Grid.Column="13" Click="Boton_EscogerHora"/>
+
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="5" Grid.Column="1" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="5" Grid.Column="4" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="5" Grid.Column="7" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="5" Grid.Column="10" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="5" Grid.Column="13" Click="Boton_EscogerHora"/>
+
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="6" Grid.Column="1" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="6" Grid.Column="4" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="6" Grid.Column="7" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="6" Grid.Column="10" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="6" Grid.Column="13" Click="Boton_EscogerHora"/>
+
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="7" Grid.Column="1" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="7" Grid.Column="4" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="7" Grid.Column="7" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="7" Grid.Column="10" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="7" Grid.Column="13" Click="Boton_EscogerHora"/>
+
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="8" Grid.Column="1" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="8" Grid.Column="4" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="8" Grid.Column="7" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="8" Grid.Column="10" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="8" Grid.Column="13" Click="Boton_EscogerHora"/>
+
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="9" Grid.Column="1" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="9" Grid.Column="4" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="9" Grid.Column="7" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="9" Grid.Column="10" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="9" Grid.Column="13" Click="Boton_EscogerHora"/>
+
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="10" Grid.Column="1" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="10" Grid.Column="4" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="10" Grid.Column="7" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="10" Grid.Column="10" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="10" Grid.Column="13" Click="Boton_EscogerHora"/>
+
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="11" Grid.Column="1" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="11" Grid.Column="4" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="11" Grid.Column="7" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="11" Grid.Column="10" Click="Boton_EscogerHora"/>
+            <Button Style="{DynamicResource CuadroHora}" Grid.Row="11" Grid.Column="13" Click="Boton_EscogerHora"/>
+        </Grid>
+    </Grid>
+</Window>

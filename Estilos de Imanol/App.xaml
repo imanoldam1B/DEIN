@@ -61,5 +61,18 @@
         <Style x:Key="SitioLibre" TargetType="Button">
             <Setter Property="Background" Value="Green"/>
         </Style>
+        <Style x:Key="CuadroDiaSemana" TargetType="TextBox">
+            <Setter Property="Background" Value="white" />
+            <Setter Property="Grid.ColumnSpan" Value="3" />
+            <Setter Property="FontSize" Value="22" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+        </Style>
+        <Style x:Key="CuadroHora" TargetType="Button">
+            <Setter Property="Content" Value="hora" />
+            <Setter Property="Background" Value="white" />
+            <Setter Property="Grid.ColumnSpan" Value="3" />
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+        </Style>
     </Application.Resources>
 </Application>
