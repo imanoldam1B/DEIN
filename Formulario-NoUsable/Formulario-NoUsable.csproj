@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Formulario_NoUsable</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Formulario2.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Formulario2.xaml" />
+  </ItemGroup>
+
+</Project>

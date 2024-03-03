@@ -1,0 +1,21 @@
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Navegación de Imanol.csproj.AssemblyReference.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\MainWindow.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Page1.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Window1.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Window2.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\App.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Navegación de Imanol_MarkupCompile.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Navegación de Imanol_MarkupCompile.lref
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\bin\Release\Navegación de Imanol.exe.config
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\bin\Release\Navegación de Imanol.exe
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\bin\Release\Navegación de Imanol.pdb
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\MainWindow.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Window1.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Page1.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Window2.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Navegación de Imanol.g.resources
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Navegación_de_Imanol.Properties.Resources.resources
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Navegación de Imanol.csproj.GenerateResource.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Navegación de Imanol.csproj.CoreCompileInputs.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Navegación de Imanol.exe
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Navegación de Imanol\obj\Release\Navegación de Imanol.pdb

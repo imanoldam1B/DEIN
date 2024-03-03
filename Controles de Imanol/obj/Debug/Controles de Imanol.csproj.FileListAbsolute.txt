@@ -1,0 +1,15 @@
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\bin\Debug\Controles de Imanol.exe.config
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\bin\Debug\Controles de Imanol.exe
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\bin\Debug\Controles de Imanol.pdb
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\Controles de Imanol.csproj.AssemblyReference.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\MainWindow.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\App.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\Controles de Imanol_MarkupCompile.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\Controles de Imanol_MarkupCompile.lref
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\MainWindow.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\Controles de Imanol.g.resources
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\Controles_de_Imanol.Properties.Resources.resources
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\Controles de Imanol.csproj.GenerateResource.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\Controles de Imanol.csproj.CoreCompileInputs.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\Controles de Imanol.exe
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Controles de Imanol\obj\Debug\Controles de Imanol.pdb

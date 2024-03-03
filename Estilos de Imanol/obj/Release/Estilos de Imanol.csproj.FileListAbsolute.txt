@@ -1,0 +1,20 @@
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Contacto_Sugerencias.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\MainWindow.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Micuenta.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\RM.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\App.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Estilos de Imanol_MarkupCompile.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Estilos de Imanol_MarkupCompile.lref
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\bin\Release\Estilos de Imanol.exe.config
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\bin\Release\Estilos de Imanol.exe
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\bin\Release\Estilos de Imanol.pdb
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Contacto_Sugerencias.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\MainWindow.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Micuenta.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\RM.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Estilos de Imanol.g.resources
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Estilos_de_Imanol.Properties.Resources.resources
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Estilos de Imanol.csproj.GenerateResource.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Estilos de Imanol.csproj.CoreCompileInputs.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Estilos de Imanol.exe
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Estilos de Imanol\obj\Release\Estilos de Imanol.pdb

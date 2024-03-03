@@ -1,0 +1,15 @@
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\bin\Debug\Introducción de Datos de Empleados.exe.config
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\bin\Debug\Introducción de Datos de Empleados.exe
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\bin\Debug\Introducción de Datos de Empleados.pdb
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\Introducción de Datos de Empleados.csproj.AssemblyReference.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\MainWindow.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\App.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\Introducción de Datos de Empleados_MarkupCompile.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\Introducción de Datos de Empleados_MarkupCompile.lref
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\MainWindow.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\Introducción de Datos de Empleados.g.resources
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\Introducción_de_Datos_de_Empleados.Properties.Resources.resources
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\Introducción de Datos de Empleados.csproj.GenerateResource.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\Introducción de Datos de Empleados.csproj.CoreCompileInputs.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\Introducción de Datos de Empleados.exe
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Desarrollo de interfaces\Github\DEIN\Introducción de Datos de Empleados\obj\Debug\Introducción de Datos de Empleados.pdb

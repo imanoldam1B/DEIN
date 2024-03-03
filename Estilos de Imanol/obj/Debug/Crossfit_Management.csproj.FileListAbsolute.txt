@@ -1,0 +1,32 @@
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Crossfit_Management.csproj.AssemblyReference.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Contacto_Sugerencias.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\LogIn.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\MainWindow.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\MapaReserva.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\micuenta.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\RM.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\SubirVideo.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Videos.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\App.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Estilos de Imanol_MarkupCompile.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Estilos de Imanol_MarkupCompile.lref
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Estilos de Imanol.exe
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Estilos de Imanol.pdb
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\bin\Debug\Estilos de Imanol.exe.config
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\bin\Debug\Estilos de Imanol.exe
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\bin\Debug\Estilos de Imanol.pdb
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\App.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Contacto_Sugerencias.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\LogIn.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\MainWindow.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\MapaReserva.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\micuenta.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\RM.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\SubirVideo.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Videos.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Estilos de Imanol.g.resources
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Estilos_de_Imanol.Properties.Resources.resources
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Crossfit_Management.csproj.GenerateResource.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\Crossfit_Management.csproj.CoreCompileInputs.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\WOD.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Estilos de Imanol\obj\Debug\WOD.baml
