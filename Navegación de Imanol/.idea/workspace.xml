@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47453ca4-9671-49b3-942c-94473bdc06d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/App.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/App.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Contacto_Sugerencias.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Contacto_Sugerencias.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Crossfit_Management.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Images/fokitas.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Images/imagen-login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Images/menu-principal1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Images/menu-principal2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/LogIn.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/LogIn.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/MainWindow.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/MainWindow.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/RM.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/RM.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/SubirVideo.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/SubirVideo.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Videos.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/Videos.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/micuenta.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crossfit_Management/Crossfit_Management/micuenta.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/App.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/App.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/Desplegables de Imanol.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/Desplegables de Imanol.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/MainWindow.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/MainWindow.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/Usuario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/Usuarios.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/Usuarios.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desplegables de Imanol/menu_usuarios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/App.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/App.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/Introducción de Datos de Empleados.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/Introducción de Datos de Empleados.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/MainWindow.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/MainWindow.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Introducción de Datos de Empleados/company_slogan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Navegación de Imanol.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2cd1BnvId5MonKT6aJvzmBrfQjR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/imano/Documents/MIX MATERIAS S23/DEIN/Estudiando-EXAMEN&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47453ca4-9671-49b3-942c-94473bdc06d3" name="Changes" comment="" />
+      <created>1708426508880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708426508880</updated>
+    </task>
+    <servers />
+  </component>
+</project>
