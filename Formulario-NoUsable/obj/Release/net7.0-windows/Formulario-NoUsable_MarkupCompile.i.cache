@@ -1,18 +1,18 @@
 ﻿Formulario-NoUsable
-
+1.0.0.0
 
 winexe
 C#
 .cs
-C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Formulario-NoUsable\obj\Debug\net7.0-windows\
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Formulario-NoUsable\obj\Release\net7.0-windows\
 Formulario_NoUsable
 none
 false
-TRACE;DEBUG;NET;NET7_0;NETCOREAPP
+TRACE;RELEASE;NET;NET7_0;NETCOREAPP
 C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Formulario-NoUsable\App.xaml
 11407045341
 
-6-2002867337
+81732626098
 198-200740077
 MainWindow.xaml;
 

@@ -18,3 +18,10 @@ C:\Users\imano\OneDrive\Documentos\Formulario-NoUsable\obj\Debug\net7.0-windows\
 C:\Users\imano\OneDrive\Documentos\Formulario-NoUsable\obj\Debug\net7.0-windows\ref\Formulario-NoUsable.dll
 C:\Users\imano\OneDrive\Documentos\Formulario-NoUsable\obj\Debug\net7.0-windows\MainWindow.g.cs
 C:\Users\imano\OneDrive\Documentos\Formulario-NoUsable\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Formulario-NoUsable\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Formulario-NoUsable\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Formulario-NoUsable\obj\Debug\net7.0-windows\Formulario-NoUsable_MarkupCompile.cache
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Formulario-NoUsable\obj\Debug\net7.0-windows\Formulario-NoUsable_MarkupCompile.lref
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Formulario-NoUsable\obj\Debug\net7.0-windows\Formulario-NoUsable.dll
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Formulario-NoUsable\obj\Debug\net7.0-windows\refint\Formulario-NoUsable.dll
+C:\Users\imano\OneDrive\Documentos\MIX MATERIAS 2023\Github\DEIN\Formulario-NoUsable\obj\Debug\net7.0-windows\Formulario-NoUsable.pdb

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\imano\\OneDrive\\Documentos\\Formulario-NoUsable\\Formulario-NoUsable.csproj",
+      "projectUniqueName": "C:\\Users\\imano\\OneDrive\\Documentos\\MIX MATERIAS 2023\\Github\\DEIN\\Formulario-NoUsable\\Formulario-NoUsable.csproj",
       "projectName": "Formulario-NoUsable",
-      "projectPath": "C:\\Users\\imano\\OneDrive\\Documentos\\Formulario-NoUsable\\Formulario-NoUsable.csproj",
+      "projectPath": "C:\\Users\\imano\\OneDrive\\Documentos\\MIX MATERIAS 2023\\Github\\DEIN\\Formulario-NoUsable\\Formulario-NoUsable.csproj",
       "packagesPath": "C:\\Users\\imano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\imano\\OneDrive\\Documentos\\Formulario-NoUsable\\obj\\",
+      "outputPath": "C:\\Users\\imano\\OneDrive\\Documentos\\MIX MATERIAS 2023\\Github\\DEIN\\Formulario-NoUsable\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\imano\\AppData\\Roaming\\NuGet\\NuGet.Config",
